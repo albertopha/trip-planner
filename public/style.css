@@ -12,3 +12,57 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+header {
+  display: flex;
+  position: fixed;
+  padding: 10px;
+  width: 100vw;
+  color: #fff;
+  background-color: rgba(37, 37, 37, 1);
+  z-index: 2;
+  transition: all 0.5s;
+}
+
+.nav-item {
+  height: 1.5em;
+  margin: 0 1.5em 0 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.nav-item a {
+  font-size: 1.3em;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  transition: color 1s, background-color 5s;
+}
+.nav-item a:hover {
+  color: #202b47;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: #d3d3d3;
+}
+
+#side-panel{
+  background-color: rgba(165, 151, 151, 0.603);
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+#options {
+  top: 8.5vh;
+  left: 70vw;
+  z-index: 2;
+  background-color: rgba(75, 25, 25, 0.603);
+}
+
+#itinerary{
+  top: 8.5vh;
+  left: 70vw;
+  z-index: 2;
+  background-color: rgba(75, 25, 25, 0.603);
+}
